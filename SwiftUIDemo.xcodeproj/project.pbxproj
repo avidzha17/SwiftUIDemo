@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		6A17672B26D8DA8E00F68A29 /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A17672A26D8DA8E00F68A29 /* SwiftUIDemoApp.swift */; };
-		6A17672D26D8DA8E00F68A29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A17672C26D8DA8E00F68A29 /* ContentView.swift */; };
+		6A17672D26D8DA8E00F68A29 /* EmogiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A17672C26D8DA8E00F68A29 /* EmogiMemoryGameView.swift */; };
 		6A17672F26D8DA9100F68A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A17672E26D8DA9100F68A29 /* Assets.xcassets */; };
 		6A17673226D8DA9100F68A29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A17673126D8DA9100F68A29 /* Preview Assets.xcassets */; };
+		6A17673A26D8F2AC00F68A29 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A17673926D8F2AC00F68A29 /* MemoryGame.swift */; };
+		6A17673C26D8F59200F68A29 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A17673B26D8F59200F68A29 /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A17672726D8DA8E00F68A29 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A17672A26D8DA8E00F68A29 /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
-		6A17672C26D8DA8E00F68A29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A17672C26D8DA8E00F68A29 /* EmogiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmogiMemoryGameView.swift; sourceTree = "<group>"; };
 		6A17672E26D8DA9100F68A29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A17673126D8DA9100F68A29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6A17673326D8DA9100F68A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A17673926D8F2AC00F68A29 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		6A17673B26D8F59200F68A29 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				6A17672A26D8DA8E00F68A29 /* SwiftUIDemoApp.swift */,
-				6A17672C26D8DA8E00F68A29 /* ContentView.swift */,
+				6A17672C26D8DA8E00F68A29 /* EmogiMemoryGameView.swift */,
+				6A17673926D8F2AC00F68A29 /* MemoryGame.swift */,
+				6A17673B26D8F59200F68A29 /* EmojiMemoryGame.swift */,
 				6A17672E26D8DA9100F68A29 /* Assets.xcassets */,
 				6A17673326D8DA9100F68A29 /* Info.plist */,
 				6A17673026D8DA9100F68A29 /* Preview Content */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A17672D26D8DA8E00F68A29 /* ContentView.swift in Sources */,
+				6A17673A26D8F2AC00F68A29 /* MemoryGame.swift in Sources */,
+				6A17672D26D8DA8E00F68A29 /* EmogiMemoryGameView.swift in Sources */,
 				6A17672B26D8DA8E00F68A29 /* SwiftUIDemoApp.swift in Sources */,
+				6A17673C26D8F59200F68A29 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
